@@ -1,0 +1,34 @@
+How did viewing a diff between two versions of a file help you see the bug that
+was introduced?
+
+It listed the lines that differed between one version of the file and the other, making it much easier to spot differences (and find typos, etc.) than manually searching for them.
+
+How could having easy access to the entire history of a file make you a more
+efficient programmer in the long term?
+
+An attempt to improve code might include a mistake that breaks the program. The ability to return easily to a previous version that worked and start from there is useful. 
+
+What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions automatically saved, like Google
+docs does?
+
+  Pros: You can choose when it makes sense to commit and do it more efficiently.
+  Cons: You have to remember to do it.
+
+Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file separately?
+
+ Some files refer to each other, especially in programming, where one program may call a second program to perform a calculation the result of which would be used by the first program. In that case, it makes sense to commit files as a set. Other programs, such as a word processing document, are stand-alone, so it may not be of any utility to commit more than one file at a time.
+
+How can you use the commands git log and git diff to view the history of files?
+
+  git log allows you to see what was changed at each commit. git diff allows you to compare to versions, showing what was removed from the old version and added to the new version.
+
+How might using version control make you more confident to make changes that
+could break something?
+
+The changes won't necessarily be permanent. It's easy to switch back to an older version that wasn't broken.
+    
+Now that you have your workspace set up, what do you want to try using Git for?
+
+I want to do hoodrat stuff with my friends.
