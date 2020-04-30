@@ -14,6 +14,8 @@ Use git diff to see differences between changes that have been made vs. those th
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
 
+When multiple people are working on different aspects of the code.
+
 When you want multiple versions of code. For example a hard version vs. an easy version of a task, or when analyzing subjects' data whose scans were of different durations.
 
 How do the diagrams help you visualize the branch structure?
@@ -21,5 +23,9 @@ How do the diagrams help you visualize the branch structure?
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
 
+
+
 What are the pros and cons of Git's automatic merging vs. always doing merges
 manually?
+
+Automatic can produce conflicts but otherwise saves time. Since the conflicts are flagged, it makes them easier to troubleshoot.
